@@ -1,10 +1,10 @@
 spring:
-application:
-  name: GridBalancer
-datasource:
-  url: jdbc:sqlite:database/gridbalancer.db
-  driver-class-name: org.sqlite.JDBC
-jpa:
-  hibernate:
-    ddl-auto: update
-  database-platform: lv.gderuki.gridbalancer.config.SQLDialectConfig
+  application:
+    name: GridBalancer
+  datasource:
+    url: jdbc:sqlite:database/gridbalancer.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: lv.gderuki.gridbalancer.config.SQLDialectConfig
