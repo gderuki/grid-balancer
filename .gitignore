@@ -36,3 +36,5 @@ build/
 *.db
 *.sqlite
 *.sqlite3
+# We ignore in-memory SQLite DB, needed for testing
+memory
