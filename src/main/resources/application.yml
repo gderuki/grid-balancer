@@ -5,6 +5,11 @@ spring:
     url: jdbc:sqlite:database/gridbalancer.db
     driver-class-name: org.sqlite.JDBC
   jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
     hibernate:
       ddl-auto: update
-    database-platform: lv.gderuki.gridbalancer.config.SQLDialectConfig
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
